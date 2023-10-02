@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-image: url('/image/pexels-reynaldo-brigworkz-brigantty-2526097.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.703);
+            position: relative;
+            top: 120px;
+            border-radius: 10px;
+            width: 400px;
+            height: 280px;
+            margin: 100px auto;
+            padding: 20px;
+            text-align: center;
+            opacity:0.8;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+           color:black;
+        }
+
+        .input-field {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: medium;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ee00ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: medium;
+        }
+        .login-button1
+         {
+            position: relative;
+            top: 15px;
+            width: 100%;
+            padding: 10px;
+            background-color: #ee00ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <input class="input-field" type="text" placeholder="Username" name="username" required>
+            <input class="input-field" type="password" placeholder="Password" name="password" required>
+            <button class="login-button" type="submit">Login</button>
+            <button class="login-button1" type="submit">Sign up</button>
+        </form>
+    </div>
+</body>
+</html>
